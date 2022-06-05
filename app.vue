@@ -51,6 +51,7 @@ onMounted(async () => {
     >
       {{ state.addressShort || 'Connect wallet' }}
     </button>
-    <NuxtWelcome />
+    <!-- <NuxtWelcome /> -->
+    <NuxtPage />
   </div>
 </template>
